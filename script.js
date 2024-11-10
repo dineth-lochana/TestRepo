@@ -1,5 +1,5 @@
 function fetchData() {
-    fetch('countries.json')
+    fetch('https://raw.githubusercontent.com/achingachris/fetch-api-demo/refs/heads/dev/countries.json')
     .then((res) => res.json())
     .then((data) => {
       console.log(data)
@@ -20,4 +20,7 @@ function fetchData() {
     })
 }
 
+
 fetchData()
+
+
